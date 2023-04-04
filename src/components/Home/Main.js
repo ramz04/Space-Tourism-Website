@@ -3,7 +3,7 @@ import { Outlet, Link } from 'react-router-dom'
 
 function Main() {
   return (
-    <div className='text-white px-6 sm:px-24 lg:px-0 py-8 mt-10 flex flex-col lg:flex-row sm:justify-around justify-between gap-28 h-[80%] items-center'>
+    <div className='text-white px-4 sm:px-24 lg:px-0 py-8 mt-10 flex flex-col lg:flex-row sm:justify-around justify-between gap-20 h-[80%] items-center'>
         <div className='text-center lg:text-left lg:basis-1/2'>
             <h3 className='uppercase tracking-widest sm:text-lg lg:text-xl font-light font-barlow'>So, you want to travel to</h3>
             <h1 className='mt-6 uppercase text-7xl sm:text-8xl lg:text-9xl lg:tracking-widest sm:tracking-wider tracking-wide '>
