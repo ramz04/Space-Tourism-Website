@@ -33,7 +33,7 @@ function Navbar() {
                   }`}></span>
               </div>
             </button>
-            <div aria-hidden='true' className={`fixed top-0 right-0 backdrop-blur-lg bg-white/10 h-screen transform transition-all duration-300 ease-in-out w-[70%] ${ drawer ? "visible" : "invisible"} `} 
+            <div aria-hidden='true' aria-checked={!drawer} className='fixed top-0 right-0 backdrop-blur-lg bg-white/10 h-screen transform transition-all duration-300 ease-in-out w-[70%] aria-checked:translate-x-full' 
             tabIndex='-1'>
               <ul className='mt-24 pl-8 text-white space-y-5'>
                 <li className='uppercase font-barlow hover:border-r-[4px] hover:border-r-white hover:brightness-50'>
