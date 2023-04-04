@@ -11,6 +11,7 @@ function Navbar() {
   return (
     <div className='p-3 sm:p-0 sm:pl-6 lg:pl-14 lg:pt-10 flex items-center relative justify-between'>
         <Link to={`/`}><img src={logo} alt='' className='w-[30px] sm:w-[40px]'/></Link>
+        <hr />
         <div className='sm:hidden relative'>
             <button type='button' className='relative w-10 h-10 z-20 text-gray-500 rounded-sm focus:outline-none' onClick={() => setDrawer(!drawer)}>
                 <span className='sr-only'>Open Main Menu</span>
@@ -51,8 +52,8 @@ function Navbar() {
               </ul>
             </div>
         </div>
-        <div className='hidden sm:flex bg-white/10 pl-10 h-20 backdrop-blur-2xl'>
-            <ul className='mt-16 sm:mt-0 p-8 sm:p-0 sm:px-8 lg:px-32  items-center flex w-full h-full text-white space-x-5 lg:space-x-24'>
+        <div className='hidden sm:flex bg-white/10 h-20 shadow-lg backdrop-blur-md'>
+            <ul className='mt-16 sm:mt-0 p-8 sm:p-0 sm:px-8 lg:px-32  items-center flex w-full h-full text-white space-x-5 lg:justify-around lg:gap-8'>
                 <li className='uppercase font-barlow w-full h-full border-b-2 border-b-white '>
                   <Link to={`/`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>00</span> home</Link>
                 </li>
