@@ -4,3 +4,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.tab {
+    @apply border-b-2 border-b-gray-500
+}

@@ -9,7 +9,7 @@ import titan from '../../assets/destination/image-titan.png'
 function Main(props) {
 
   const [jsondata, setJsonData] = useState(data)
-    const [planetid, setPlanetId] = useState(1)
+    const [planetid, setPlanetId] = useState(0)
 
     let planetImages = [moon, mars, europa, titan]
   return (
@@ -18,10 +18,10 @@ function Main(props) {
       <div className='text-white flex flex-col items-center justify-center'>
         <img src={planetImages[planetid]} alt='' className='w-[250px] p-4' />
         <div className='destination--content--nav flex justify-center gap-4 uppercase'>
-          <div className='tab'>moon</div>
-          <div className='tab'>mars</div>
-          <div className='tab'>europa</div>
-          <div className='tab'>titan</div>
+          <div className='cursor-pointer tab' onClick={() => setPlanetId(0)} >moon</div>
+          <div className='cursor-pointer' onClick={() => setPlanetId(1)}>mars</div>
+          <div className='cursor-pointer' onClick={() => setPlanetId(2)}>europa</div>
+          <div className='cursor-pointer' onClick={() => setPlanetId(3)}>titan</div>
         </div>
         <h1 className='text-center text-7xl font-bellefair mt-4 uppercase'>{jsondata.destinations[planetid].name}</h1>
         <p className='p-6 tracking-wider text-center'>{jsondata.destinations[planetid].description}</p>
