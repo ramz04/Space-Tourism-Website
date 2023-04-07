@@ -9,7 +9,18 @@ import titan from '../../assets/destination/image-titan.png'
 function Main(props) {
 
   const [jsondata, setJsonData] = useState(data)
-    const [planetid, setPlanetId] = useState(0)
+  const [planetid, setPlanetId] = useState(0)
+  const navigation = React.useRef()
+
+  function tabChange(e){
+    setPlanetId(e.target.dataset.index)
+    let children = navigation.current.children
+    for(let i = 0; i < children.length;i++){
+      const child = children[i];
+      child.classList.remove('active')
+    }
+    e.target.classList.add('active')
+  }
 
     let planetImages = [moon, mars, europa, titan]
   return (
@@ -17,11 +28,11 @@ function Main(props) {
       <h2 className='text-white text-center uppercase font-barlow tracking-widest text-lg mt-4'><span className='brightness-50 mr-2'>01</span> Pick your destination </h2>
       <div className='text-white flex flex-col items-center justify-center'>
         <img src={planetImages[planetid]} alt='' className='w-[250px] p-4' />
-        <div className='destination--content--nav flex justify-center gap-4 uppercase'>
-          <div className='cursor-pointer tab' onClick={() => setPlanetId(0)} >moon</div>
-          <div className='cursor-pointer' onClick={() => setPlanetId(1)}>mars</div>
-          <div className='cursor-pointer' onClick={() => setPlanetId(2)}>europa</div>
-          <div className='cursor-pointer' onClick={() => setPlanetId(3)}>titan</div>
+        <div ref={navigation} className='destination--content--nav flex justify-center gap-4 uppercase'>
+          <div className='cursor-pointer active' data-index={0} onClick={tabChange} >moon</div>
+          <div className='cursor-pointer' data-index={1} onClick={tabChange}>mars</div>
+          <div className='cursor-pointer' data-index={2} onClick={tabChange}>europa</div>
+          <div className='cursor-pointer' data-index={3} onClick={tabChange}>titan</div>
         </div>
         <h1 className='text-center text-7xl font-bellefair mt-4 uppercase'>{jsondata.destinations[planetid].name}</h1>
         <p className='p-6 tracking-wider text-center'>{jsondata.destinations[planetid].description}</p>
