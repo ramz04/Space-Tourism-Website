@@ -24,8 +24,8 @@ function Main(props) {
 
     let planetImages = [moon, mars, europa, titan]
   return (
-    <div className='flex flex-col justify-around items-center pt-5 pb-10'>
-      <h2 className='text-white text-center uppercase font-barlow tracking-widest text-lg mt-4'><span className='brightness-50 mr-2'>01</span> Pick your destination </h2>
+    <div className=' pt-5 pb-10'>
+      <h2 className='text-white text-center sm:text-left uppercase font-barlow tracking-widest text-lg mt-4'><span className='brightness-50 mr-2'>01</span> Pick your destination </h2>
       <div className='text-white flex flex-col items-center justify-center'>
         <img src={planetImages[planetid]} alt='' className='w-[250px] p-4' />
         <div ref={navigation} className='destination--content--nav flex justify-center gap-4 uppercase'>
