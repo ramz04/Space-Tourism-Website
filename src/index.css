@@ -13,3 +13,7 @@
 .active{
     @apply border-b-2 border-b-white
 }
+
+.activecrew {
+    @apply bg-white
+}

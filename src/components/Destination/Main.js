@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useRef} from 'react'
 import data from '../../data.json'
 import moon from '../../assets/destination/image-moon.png'
 import mars from '../../assets/destination/image-mars.png'
@@ -10,7 +10,7 @@ function Main(props) {
 
   const [jsondata, setJsonData] = useState(data)
   const [planetid, setPlanetId] = useState(0)
-  const navigation = React.useRef()
+  const navigation = useRef()
 
   function tabChange(e){
     setPlanetId(e.target.dataset.index)

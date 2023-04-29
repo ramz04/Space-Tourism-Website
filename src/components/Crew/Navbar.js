@@ -39,10 +39,10 @@ function Navbar() {
                 <li className='uppercase font-barlow hover:border-r-[4px] hover:border-r-white hover:brightness-50'>
                   <Link to={`/`} ><span className='font-bold text-white mr-2 '>00</span> home</Link>
                 </li>
-                <li className='uppercase font-barlow border-r-[4px] border-r-white'>
-                  <Link to={`destination`}><span className='font-bold text-white mr-2'>01</span> destination</Link>
+                <li className='uppercase font-barlow'>
+                  <Link to={`destination`}><span className='font-bold hover:border-r-[4px] hover:border-r-white hover:brightness-50 text-white mr-2'>01</span> destination</Link>
                 </li>
-                <li className='uppercase font-barlow hover:border-r-[4px] hover:border-r-white hover:brightness-50'>
+                <li className='uppercase font-barlow  border-r-[4px] border-r-white'>
                   <Link to={`crew`}><span className='font-bold text-white mr-2'>02</span> crew</Link>
                 </li>
                 <li className='uppercase font-barlow hover:border-r-[4px] hover:border-r-white hover:brightness-50'>
@@ -56,10 +56,10 @@ function Navbar() {
                 <li className='uppercase font-barlow w-full h-full hover:border-b-2 hover:border-b-white hover:brightness-50 '>
                   <Link to={`/`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>00</span> home</Link>
                 </li>
-                <li className='uppercase font-barlow  w-full h-full border-b-2 border-b-white '>
+                <li className='uppercase font-barlow  w-full h-full hover:border-b-2 hover:border-b-white hover:brightness-50 '>
                   <Link to={`destination`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>01</span> destination</Link>
                 </li>
-                <li className='uppercase font-barlow  w-full h-full hover:border-b-2 hover:border-b-white hover:brightness-50 '>
+                <li className='uppercase font-barlow  w-full h-full  border-b-2 border-b-white  '>
                   <Link to={`crew`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>02</span> crew</Link>
                 </li>
                 <li className='uppercase font-barlow  w-full h-full hover:border-b-2 hover:border-b-white hover:brightness-50 '>

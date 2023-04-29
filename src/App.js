@@ -4,8 +4,8 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 import Destination from "./components/Destination/Destination";
-import Technology from './components/Technology/Technology'
-import Crew from './components/Crew/Crew'
+import Technology from "./components/Technology/Technology";
+import Crew from "./components/Crew/Crew";
 
 function App() {
 

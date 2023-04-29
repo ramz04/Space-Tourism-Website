@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import logo from '../../assets/shared/logo.svg'
-import { Outlet, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     
