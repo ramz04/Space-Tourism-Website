@@ -39,8 +39,8 @@ function Navbar() {
                 <li className='uppercase font-barlow hover:border-r-[4px] hover:border-r-white hover:brightness-50'>
                   <Link to={`/`} ><span className='font-bold text-white mr-2 '>00</span> home</Link>
                 </li>
-                <li className='uppercase font-barlow'>
-                  <Link to={`destination`}><span className='font-bold hover:border-r-[4px] hover:border-r-white hover:brightness-50 text-white mr-2'>01</span> destination</Link>
+                <li className='uppercase font-barlow hover:border-r-[4px] hover:border-r-white hover:brightness-50 '>
+                  <Link to={`destination`}><span className='font-bold text-white mr-2'>01</span> destination</Link>
                 </li>
                 <li className='uppercase font-barlow  border-r-[4px] border-r-white'>
                   <Link to={`crew`}><span className='font-bold text-white mr-2'>02</span> crew</Link>
