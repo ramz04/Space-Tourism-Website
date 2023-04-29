@@ -30,7 +30,7 @@ function Main() {
             <div className='sm:flex sm:flex-col-reverse'>
               <div className='sm:mt-4'>
                   <div className='text-white flex flex-col sm:mt-6 items-center justify-center'>
-                      <img src={crewImages[crewid]} alt='' className='w-[250px] h-full p-3 sm:p-0' />
+                      <img src={crewImages[crewid]} alt='' className='w-[250px]  h-full p-3 sm:p-0' />
                   </div>
                       <div className='h-[0.5px] w-[90%] sm:hidden -mt-3 brightness-50  bg-gray-200' ></div>
               </div>
