@@ -36,7 +36,7 @@ function Main(props) {
         </div>
         <h1 className='text-center text-7xl font-bellefair mt-4 sm:mt-6 uppercase'>{jsondata.destinations[planetid].name}</h1>
         <p className='p-6 tracking-wider text-[#D0D6F9] brightness-75 text-center sm:px-14'>{jsondata.destinations[planetid].description}</p>
-        <hr className='bg-[#D0D6F9] mt-6  sm:mt-10 w-[80%] brightness-50' />
+        <hr className='bg-[#D0D6F9] mt-  sm:mt-10 w-[80%] brightness-50' />
         <div className='sm:flex mt-6 sm:items-center sm:gap-20 mb-4'>
           <div className='text-center'>
             <p className=''>AVG. DISTANCE</p>
