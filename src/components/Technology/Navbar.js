@@ -40,13 +40,13 @@ function Navbar() {
                   <Link to={`/`} ><span className='font-bold text-white mr-2 '>00</span> home</Link>
                 </li>
                 <li className='uppercase font-barlow hover:border-r-[4px] hover:border-r-white hover:brightness-50'>
-                  <Link to={`destination`}><span className='font-bold  text-white mr-2'>01</span> destination</Link>
+                  <Link to={`/destination`}><span className='font-bold  text-white mr-2'>01</span> destination</Link>
                 </li>
                 <li className='uppercase font-barlow hover:border-r-[4px] hover:border-r-white hover:brightness-50 '>
-                  <Link to={`crew`}><span className='font-bold text-white mr-2'>02</span> crew</Link>
+                  <Link to={`/crew`}><span className='font-bold text-white mr-2'>02</span> crew</Link>
                 </li>
                 <li className='uppercase font-barlow border-r-[4px] border-r-white '>
-                  <Link to={`technology`}><span className='font-bold text-white mr-2'>03</span> technology</Link>
+                  <Link to={`/technology`}><span className='font-bold text-white mr-2'>03</span> technology</Link>
                 </li>
               </ul>
             </div>
@@ -57,13 +57,13 @@ function Navbar() {
                   <Link to={`/`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>00</span> home</Link>
                 </li>
                 <li className='uppercase font-barlow  w-full h-full hover:border-b-2 hover:border-b-white hover:brightness-50 '>
-                  <Link to={`destination`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>01</span> destination</Link>
+                  <Link to={`/destination`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>01</span> destination</Link>
                 </li>
                 <li className='uppercase font-barlow  w-full h-full  hover:border-b-2 hover:border-b-white hover:brightness-50   '>
-                  <Link to={`crew`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>02</span> crew</Link>
+                  <Link to={`/crew`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>02</span> crew</Link>
                 </li>
                 <li className='uppercase font-barlow  w-full h-full border-b-2 border-b-white  '>
-                  <Link to={`technology`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>03</span> technology</Link>
+                  <Link to={`/technology`} className='flex items-center h-full'><span className='font-bold text-white mr-2'>03</span> technology</Link>
                 </li>
             </ul>
         </div>

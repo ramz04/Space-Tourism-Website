@@ -6,25 +6,30 @@ import {
 import Destination from "./components/Destination/Destination";
 import Technology from "./components/Technology/Technology";
 import Crew from "./components/Crew/Crew";
+import ErrorPage from "./ErrorPage";
 
 function App() {
 
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <Hero />
+      element: <Hero />,
+      errorElement: <ErrorPage />,
     },
     {
       path: '/destination',
-      element: <Destination />
+      element: <Destination />,
+      errorElement: <ErrorPage />,
     },
     {
       path: '/crew',
-      element: <Crew />
+      element: <Crew />,
+      errorElement: <ErrorPage />,
     },
     {
       path: '/technology',
-      element: <Technology />
+      element: <Technology />,
+      errorElement: <ErrorPage />,
     }
   ])
 

@@ -17,3 +17,7 @@
 .activecrew {
     @apply bg-white
 }
+
+.activetech {
+    @apply bg-white text-black
+}
