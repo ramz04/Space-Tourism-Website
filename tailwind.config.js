@@ -15,6 +15,9 @@ module.exports = {
         crewmobile : 'url(../src/assets/crew/background-crew-mobile.jpg)',
         crewtablet : 'url(../src/assets/crew/background-crew-tablet.jpg)',
         crewdesktop : 'url(../src/assets/crew/background-crew-desktop.jpg)',
+        techdesktop : 'url(../src/assets/technology/background-technology-desktop.jpg)',
+        techtablet : 'url(../src/assets/technology/background-technology-tablet.jpg)',
+        techmobile: 'url(../src/assets/technology/background-technology-mobile.jpg)',
 
 
       },
