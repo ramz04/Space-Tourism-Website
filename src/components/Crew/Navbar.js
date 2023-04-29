@@ -54,16 +54,16 @@ function Navbar() {
         <div className='hidden sm:flex bg-white/10 h-20 backdrop-blur-2xl'>
             <ul className='mt-16 sm:mt-0 p-8 sm:p-0 sm:px-8 lg:px-32  items-center flex w-full h-full text-white space-x-8 lg:justify-around lg:gap-8'>
                 <li className='uppercase font-barlow w-full h-full hover:border-b-2 hover:border-b-white hover:brightness-50 '>
-                  <Link to={`/`} className='flex items-center h-full'><span className='font-bold sm:hidden text-white mr-2'>00</span> home</Link>
+                  <Link to={`/`} className='flex items-center h-full'><span className='font-bold sm:hidden lg:flex text-white mr-2'>00</span> home</Link>
                 </li>
                 <li className='uppercase font-barlow  w-full h-full hover:border-b-2 hover:border-b-white hover:brightness-50 '>
-                  <Link to={`/destination`} className='flex items-center h-full'><span className='font-bold sm:hidden text-white mr-2'>01</span> destination</Link>
+                  <Link to={`/destination`} className='flex items-center h-full'><span className='font-bold sm:hidden lg:flex text-white mr-2'>01</span> destination</Link>
                 </li>
                 <li className='uppercase font-barlow  w-full h-full  border-b-2 border-b-white  '>
-                  <Link to={`/crew`} className='flex items-center h-full'><span className='font-bold sm:hidden text-white mr-2'>02</span> crew</Link>
+                  <Link to={`/crew`} className='flex items-center h-full'><span className='font-bold sm:hidden lg:flex text-white mr-2'>02</span> crew</Link>
                 </li>
                 <li className='uppercase font-barlow  w-full h-full hover:border-b-2 hover:border-b-white hover:brightness-50 '>
-                  <Link to={`/technology`} className='flex items-center h-full'><span className='font-bold sm:hidden text-white mr-2'>03</span> technology</Link>
+                  <Link to={`/technology`} className='flex items-center h-full'><span className='font-bold sm:hidden lg:flex text-white mr-2'>03</span> technology</Link>
                 </li>
             </ul>
         </div>
