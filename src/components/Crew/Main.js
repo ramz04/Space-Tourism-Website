@@ -1,9 +1,9 @@
 import React, {useState, useRef} from 'react'
 import data from '../../data.json'
-import anous from '../../assets/crew/image-anousheh-ansari.png'
-import douglas from '../../assets/crew/image-douglas-hurley.png'
-import mark from '../../assets/crew/image-mark-shuttleworth.png'
-import victor from '../../assets/crew/image-victor-glover.png'
+import anous from '../../assets/crew/image-anousheh-ansari.webp'
+import douglas from '../../assets/crew/image-douglas-hurley.webp'
+import mark from '../../assets/crew/image-mark-shuttleworth.webp'
+import victor from '../../assets/crew/image-victor-glover.webp'
 
 function Main() {
 
