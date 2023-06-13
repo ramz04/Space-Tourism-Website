@@ -1,9 +1,9 @@
 import React, {useState, useRef} from 'react'
 import data from '../../data.json'
-import moon from '../../assets/destination/image-moon.png'
-import mars from '../../assets/destination/image-mars.png'
-import europa from '../../assets/destination/image-europa.png'
-import titan from '../../assets/destination/image-titan.png'
+import moon from '../../assets/destination/image-moon.webp'
+import mars from '../../assets/destination/image-mars.webp'
+import europa from '../../assets/destination/image-europa.webp'
+import titan from '../../assets/destination/image-titan.webp'
 
 
 function Main(props) {
