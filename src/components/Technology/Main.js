@@ -1,11 +1,11 @@
 import React, {useState, useRef} from 'react'
 import data from '../../data.json'
-import launchdk from '../../assets/technology/image-launch-vehicle-landscape.jpg'
-import launch from '../../assets/technology/image-launch-vehicle-portrait.jpg'
-import spacedk from '../../assets/technology/image-space-capsule-landscape.jpg'
-import space from '../../assets/technology/image-space-capsule-portrait.jpg'
-import portdk from '../../assets/technology/image-spaceport-landscape.jpg'
-import port from '../../assets/technology/image-spaceport-portrait.jpg'
+import launchdk from '../../assets/technology/image-launch-vehicle-landscape.webp'
+import launch from '../../assets/technology/image-launch-vehicle-portrait.webp'
+import spacedk from '../../assets/technology/image-space-capsule-landscape.webp'
+import space from '../../assets/technology/image-space-capsule-portrait.webp'
+import portdk from '../../assets/technology/image-spaceport-landscape.webp'
+import port from '../../assets/technology/image-spaceport-portrait.webp'
 
 
 
